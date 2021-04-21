@@ -4,8 +4,10 @@ This is a very basic project to use for demos and starter project for tutorials.
 Requires:
 - Java 11
 - Maven
+- Docker
 
 ## Run
+`docker-compose up`
 
 `mvn clean package`
 
@@ -28,9 +30,3 @@ Requires:
 or
 
 `curl http://localhost:8080/products/1`
-
-## Spring Native
-
-`mvn spring-boot:build-image`
-
-`docker run docker.io/library/demoapi:0.0.1-SNAPSHOT`
